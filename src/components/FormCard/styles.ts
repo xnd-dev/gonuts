@@ -38,7 +38,7 @@ export const FormCardContainer = styled.div`
 
 `
 export const SpanContainer1 = styled.span`
-    color: ${(props) => props.theme.baseSubtTitle};
+    color: ${(props) => props.theme.baseSubTitle};
     font-size: 1rem;
     font-weight: 25rem;
     line-height:1.3rem;
@@ -87,7 +87,7 @@ export const InputContainer = styled.input<InputContainerProps>`
     line-height: 1.1375rem;
 
     &:active, &:focus-visible, &:focus, &:focus-within,&:focus-visible,&:target,&:visited{
-        border:1px solid ${(props) => props.theme.yellowDark};
+        border:1px solid ${(props) => props.theme.acquaDark};
         outline: 0cm;
     }
     &:valid{
@@ -95,7 +95,7 @@ export const InputContainer = styled.input<InputContainerProps>`
     }
     &:disabled{
         border:none;
-        background:${(props) => props.theme.yellowDark}; 
+        background:${(props) => props.theme.acquaDark}; 
         opacity:0.6;
         color: ${(props) => props.theme.background};
     }

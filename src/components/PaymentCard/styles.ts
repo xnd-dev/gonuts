@@ -26,7 +26,7 @@ export const PaymentCardContainer = styled.div`
 `
 
 export const SpanContainer1 = styled.span`
-    color: ${(props) => props.theme.baseSubtTitle};
+    color: ${(props) => props.theme.baseSubTitle};
     font-size: 1rem;
     line-height:1.3rem;
 `
@@ -58,7 +58,7 @@ export const ButtonContainer = styled.button`
     text-transform: uppercase;
 
     &:hover {
-        color: ${(props) => props.theme.baseSubtTitle};
+        color: ${(props) => props.theme.baseSubTitle};
         background-color: ${(props) => props.theme.baseHover};
         cursor:pointer;
     }

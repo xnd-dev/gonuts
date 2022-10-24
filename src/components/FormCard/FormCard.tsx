@@ -39,7 +39,7 @@ export function FormCard ({paymentType}: FormCardProps)  {
     return(
         <FormCardContainer>
             <div className='formCardHeader'>
-                <MapPinLine color={defaultTheme.yellowDark} size={'1.375rem'} />
+                <MapPinLine color={defaultTheme.acquaDark} size={'1.375rem'} />
                 <div >
                     <SpanContainer1> Endereço de Entrega</SpanContainer1>
                     <SpanContainer2> Informe o endereço onde deseja receber seu pedido</SpanContainer2>
@@ -57,9 +57,9 @@ export function FormCard ({paymentType}: FormCardProps)  {
                 {...register("CEP")} 
                 type="text"
                 placeholder = 'CEP'
-                onChange={(e)=>{
+                onChange={async (e)=>{
                     const cep=e.currentTarget.value;
-                    if (e.currentTarget.validity.valid) {console.log(AddressByCEP(cep))} 
+                    if (e.currentTarget.validity.valid) {await AddressByCEP(cep)} 
                     else {
                         if (cep.length>5) {
                             if (cep.search('-')==-1){e.currentTarget.value=cep.substring(0,5)+"-"+cep.substring(5);}

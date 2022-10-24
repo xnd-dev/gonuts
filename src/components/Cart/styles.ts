@@ -9,7 +9,7 @@ export const CartContainer = styled.div`
                 border-radius:0px 0px 44px 44px; 
                 border:3px solid ${(props) => props.theme.powerpink}; 
                 text-align: center; 
-                color:${(props) => props.theme.baseSubtTitle}; 
+                color:${(props) => props.theme.baseSubTitle}; 
                 flex-wrap: wrap;
                 width:448px;
                 padding:16px 40px 40px 40px;
@@ -38,12 +38,12 @@ export const CartContainer = styled.div`
                 .Total,.Total span{
                         font-size:20px;
                         font-weight: 700;
-                        color:${(props) => props.theme.baseSubtTitle}; 
+                        color:${(props) => props.theme.baseSubTitle}; 
                 }
                 .CartTotalButton{
                         cursor:pointer;
                         width:100%;
-                        background-color:${(props) => props.theme.yellow}; 
+                        background-color:${(props) => props.theme.powerpurple}; 
                         border-radius:6px;
                         padding:12px;
                         border:none;
@@ -60,7 +60,7 @@ export const CartContainer = styled.div`
                                 outline: 0cm;
                         }
                         &:hover{
-                                background-color:${(props) => props.theme.yellowDark}; 
+                                background-color:${(props) => props.theme.acquaDark}; 
                         }
                 }
         }

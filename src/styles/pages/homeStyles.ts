@@ -24,7 +24,7 @@ export const BodyContainer = styled.div`
         h2{
             font-weight: 700;
             font-family: 'Baloo 2', cursive;
-            color: ${(props)=>props.theme.baseSubtTitle};
+            color: ${(props)=>props.theme.baseSubTitle};
             font-size: 18px;
             line-height: 130%;
             align-items: center;
@@ -88,7 +88,7 @@ export const BodyContainer = styled.div`
             font-weight: 400;
             font-size: 20px;
             line-height: 130%;
-            color: ${(props)=>props.theme.baseSubtTitle};
+            color: ${(props)=>props.theme.baseSubTitle};
             font-stretch: 100;
         }
         .divSuccessColumns{

@@ -18,14 +18,14 @@ export const HoverCardCart = styled.button`
 
   :disabled{
     filter: brightness(0.7);
-    color:${(props) => props.theme.yellowDark};
+    color:${(props) => props.theme.acquaDark};
     border:none;
   }
 
   .CartDivQtd{
       width:20px;
       height:20px; 
-      background:${(props) => props.theme.yellowDark};
+      background:${(props) => props.theme.acquaDark};
       color:white; 
       font-weight: bold; 
       font-size: 12px; 
@@ -51,7 +51,7 @@ export const DivHeaderContainer = styled.div`
     justify-content: space-between;  
     min-width:800px; 
     border-radius:1vw;
-    //box-shadow:0px 0px 30px ${(props) => props.theme.yellowDark};
+    //box-shadow:0px 0px 30px ${(props) => props.theme.acquaDark};
     
     *{
         transition: 1s; 

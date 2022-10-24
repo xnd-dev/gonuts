@@ -84,7 +84,7 @@ export const BannerContainer = styled.div `
                 font-size:20px;
                 line-height:130%;
                 font-family: 'Roboto', sans-serif;
-                color: ${(props) => props.theme.baseSubtTitle};
+                color: ${(props) => props.theme.baseSubTitle};
                 .risc{text-decoration:line-through}
             }
             .DivFeatures{

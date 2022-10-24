@@ -32,7 +32,7 @@ export const ProductCardContainer = styled.div`
 
 
     h2 {font-weight:bold;
-        color:${(props) => props.theme.baseSubtTitle};
+        color:${(props) => props.theme.baseSubTitle};
         font-size:20px;
         width:100%;
         text-align:center;
@@ -173,7 +173,7 @@ export const ProductMinimalContainer = styled.div `
         flex-direction: column;
         height:fit-content;
         h2{ 
-            color:${(props) => props.theme.baseSubtTitle};
+            color:${(props) => props.theme.baseSubTitle};
             font-size:16px;
             margin-bottom:8px;
             font-family: 'Roboto', sans-serif;
@@ -244,7 +244,7 @@ export const ProductMinimalContainer = styled.div `
         height:100%;
         width:120px;
         font-size:16px;
-        color:${(props) => props.theme.baseSubtTitle};
+        color:${(props) => props.theme.baseSubTitle};
         text-align: right;
     }
 `

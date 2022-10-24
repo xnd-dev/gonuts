@@ -12,7 +12,7 @@ export const MainPageContainer = styled.div `
         font-size:32px;
         font-weight: 800;
         width:100%;
-        color:${(props)=>props.theme.baseSubtTitle};
+        color:${(props)=>props.theme.baseSubTitle};
     }
 
     .ProductGroup{

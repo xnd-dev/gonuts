@@ -28,7 +28,7 @@ export const StyledToggleGroupItem = styled(ToggleGroupPrimitive.Item)`
     text-transform: uppercase;
 
     &:hover {
-        color: ${(props) => props.theme.baseSubtTitle};
+        color: ${(props) => props.theme.baseSubTitle};
         background-color: ${(props) => props.theme.baseHover};
     }
 
