@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const BodyContainer = styled.div`
     width:100%; 
+    min-width:960px;
     background-color: ${(props)=>props.theme.background};
 
     .Container{
@@ -59,7 +60,7 @@ export const BodyContainer = styled.div`
             background-repeat: no-repeat;
             z-index:1;
             border:10px solid ${(props)=>props.theme.powerpink};
-            position:absolute;
+            position:fixed;
             top:0px;
             bottom:0px;
         }
