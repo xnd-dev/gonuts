@@ -15,7 +15,7 @@ export const IconFeaturesContainer = styled.div<IconFeaturesProps> `
     margin:${(props) => props.distance};
 
     .IconSpan{
-        color:white;
+        color:${(props) => props.color};
         background-color: ${(props) => props.color};
         border-radius:50% 50%;
         height:32px;
@@ -98,7 +98,7 @@ export const BannerContainer = styled.div `
         }
         .DivLeft{
             width:33%;
-            margin-top:-2%;
+            margin-top:0%;
             margin-right:4%;
             z-index: 1;
             img{

@@ -52,7 +52,7 @@ export const CartContainer = styled.div`
                         font-size: 14px;
                         line-height: 160%;
                         margin-top:10px;
-                        color:white;
+                        color:${(props) => props.theme.white}; 
                         transition-duration: 500ms;
 
                         &:active, &:focus-visible, &:focus, &:focus-within,&:focus-visible,&:target,&:visited{

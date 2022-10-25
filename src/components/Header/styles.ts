@@ -26,7 +26,7 @@ export const HoverCardCart = styled.button`
       width:20px;
       height:20px; 
       background:${(props) => props.theme.acquaDark};
-      color:white; 
+      color:${(props) => props.theme.white}; 
       font-weight: bold; 
       font-size: 12px; 
       border-radius:50%;

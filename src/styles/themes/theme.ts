@@ -18,7 +18,7 @@ export interface defaultThemeInterface {
     powerpink: string,
     darkpink: string,
     lightpink: string,
-    powerpowerpurple: string,
+    poweryellow: string,
     acqua: string,
 }
 export const defaultTheme: defaultThemeInterface = {
@@ -37,10 +37,10 @@ export const defaultTheme: defaultThemeInterface = {
     baseInput: '#EDEDED',
     baseCard: '#FFD',
     background: '#FEE',
-    white: '#FFD', 
+    white: '#FFF', 
     powerpink: '#F38',
     darkpink: '#805',
     lightpink: '#F6A',
-    powerpowerpurple: '#FF3',
+    poweryellow: '#FF3',
     acqua: '#7FF',
 };

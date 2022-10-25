@@ -8,7 +8,7 @@ export const ProductCardContainer = styled.div`
     width:90%;
     margin-bottom:50px;
     padding:10px;
-    border-radius:5vw 5vw 0vw 0vw;
+    border-radius:60px 60px 0 0;
     justify-content: center; 
     flex-wrap:wrap;
     align-items:flex-start;

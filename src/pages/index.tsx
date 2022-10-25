@@ -15,8 +15,8 @@ const Home: NextPage = () => {
         <main>
               <MainPage AddToCart={ AddToCart } />
         </main>
-        <Footer/>
       </div>
+      <Footer/>
     </BodyContainer>
   )
 }
